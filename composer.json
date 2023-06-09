@@ -23,8 +23,6 @@
     "autoload": {
         "psr-4": {
             "Application\\": "module/Application/src/",
-            "Utilisateur\\": "module/Utilisateur/src/",
-            "Teste\\": "module/Teste/src/",
             "Blog\\": "module/Blog/src/"
         }
     },

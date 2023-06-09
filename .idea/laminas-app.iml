@@ -6,8 +6,6 @@
       <sourceFolder url="file://$MODULE_DIR$/module/Application/test" isTestSource="true" packagePrefix="ApplicationTest\" />
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/module/Utilisateur/src" isTestSource="false" packagePrefix="Utilisateur\" />
-      <sourceFolder url="file://$MODULE_DIR$/module/Teste/src" isTestSource="false" packagePrefix="Teste\" />
       <sourceFolder url="file://$MODULE_DIR$/module/Blog/src" isTestSource="false" packagePrefix="Blog\" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/brick/varexporter" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
