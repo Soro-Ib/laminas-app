@@ -14,11 +14,18 @@
         "laminas/laminas-component-installer": "^2.4",
         "laminas/laminas-development-mode": "^3.2",
         "laminas/laminas-skeleton-installer": "^0.6",
-        "laminas/laminas-mvc": "^3.1.1"
+        "laminas/laminas-mvc": "^3.1.1",
+        "laminas/laminas-db": "^2.15",
+        "laminas/laminas-inputfilter": "^2.21",
+        "laminas/laminas-form": "^3.4",
+        "laminas/laminas-i18n": "^2.17"
     },
     "autoload": {
         "psr-4": {
-            "Application\\": "module/Application/src/"
+            "Application\\": "module/Application/src/",
+            "Utilisateur\\": "module/Utilisateur/src/",
+            "Teste\\": "module/Teste/src/",
+            "Blog\\": "module/Blog/src/"
         }
     },
     "autoload-dev": {

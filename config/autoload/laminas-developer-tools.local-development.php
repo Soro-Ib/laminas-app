@@ -72,7 +72,7 @@ return [
         'events' => [
             /**
              * Set to true to enable event-level logging for collectors that will support it. This enables a wildcard
-             * listener onto the shared event manager that will allow profiling of user-defined events as well as the
+             * listener onto the shared event manager that will allow profiling of utilisateur-defined events as well as the
              * built-in ZF events.
              *
              * Expects: bool

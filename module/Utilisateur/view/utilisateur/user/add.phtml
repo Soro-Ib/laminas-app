@@ -1,0 +1,15 @@
+<?php $this->layout('layout/userLayout'); ?>
+
+<?php
+// module/Album/view/album/album/add.phtml:
+
+$title = 'Ajouter un utilisateur';
+$this->headTitle($title);
+?>
+    <h1><?= $this->escapeHtml($title) ?></h1>
+<?php
+
+$form->setAttribute('action', $this->url('user', ['action' => 'add']));
+$form->prepare();
+
+echo $this->formCollection($form);

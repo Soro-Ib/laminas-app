@@ -42,6 +42,16 @@ return [
                     ]
                 ],
             ],
+            'poo'=>[
+                'type'=> Literal::class,
+                'options'=> [
+                    'route' => '/poo',
+                    'defaults' => [
+                        'controller' => Controller\PooController::class,
+                        'action' => 'poo'
+                    ]
+                ],
+            ],
             'application' => [
                 'type'    => Segment::class,
                 'options' => [
@@ -59,6 +69,7 @@ return [
             Controller\IndexController::class => InvokableFactory::class,
             Controller\DgiController::class => InvokableFactory::class,
             Controller\ContribuableController::class => InvokableFactory::class,
+            Controller\PooController::class => InvokableFactory::class,
         ],
     ],
     'view_manager' => [
